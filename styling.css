@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #FCE8FC;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rockwell', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+b {
+   display: block;
+   padding:10px;
+   float: left;
+   text-decoration: none;
+}
+	
+header {
+  color: #FFFFFF;
+}
+
+li {
+  display: block;
+  padding:10px;
+  float: right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFC2E9;
+}
+
+.content-wrap {
+  max-width: 800px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+
