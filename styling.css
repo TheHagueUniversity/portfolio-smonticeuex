@@ -7,7 +7,6 @@ html {
 
 body {
   background: #FCE8FC;
-  color: #FFFFFF;
   margin: 0;
   padding: 0;
   font-family: 'Rockwell', sans-serif;
@@ -15,30 +14,42 @@ body {
   line-height: 1.5;
 }
 
+header {
+  color: white;
+}
+
+
 a {
   color: white;
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 b {
    display: block;
-   padding:10px;
+   padding:10px 20px;
    float: left;
    text-decoration: none;
 }
-	
-header {
-  color: #FFFFFF;
+
+p{ 
+color: white;
+width: 60%
+}
+
+h2{
+	color:white;
+	text-align: left;
 }
 
 li {
+  
   display: block;
-  padding:10px;
+  padding:10px 25px;
   float: right;
+}
+
+li:hover { 
+text-decoration: underline;
 }
 
 ul {
@@ -46,14 +57,89 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #FFC2E9;
+  background-color: #A12C3F;
+}
+
+div.a {
+  color: white;
+} 
+
+.background {
+  background-repeat: repeat-xy;	
+  background-image: url('grid.png');
+  background-position: top;   
+  text-align: center;
 }
 
 .content-wrap {
-  max-width: 800px;
-  width: 95%;
+  max-width: 1500px;
+  width: 100%;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 262px 20px;
 }
+
+.projects .btn {
+  color: #9A293B;
+  background: #FCE8FC;
+  text-decoration: none;
+  padding: 5px 30px;
+  border-radius: 4px;
+  display: inline-block;
+  
+}
+
+.work { 
+  color: grey;
+  padding: 90px 20px;
+  text-align: center;
+}
+
+.experience {
+	
+  color: grey;
+  padding: 90px 20px;
+  text-align: center;
+}
+
+.column {
+  flex: 50%;
+}
+
+.column1 {
+	width: 70%
+}
+
+.column2 {
+	width: 30%
+}
+	
+.row {
+ display: flex;
+}
+
+.picture {
+background-image: url('picture.jpg');
+
+}
+
+.project-item {	
+  background: #F8809A;
+  padding: 40px 40px;
+  margin:0;
+  width: 100%;
+  overflow: hidden;
+  text-align: left;
+  
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align:right;
+  font-size: 16px;
+} 
+
 
 
