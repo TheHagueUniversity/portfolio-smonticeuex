@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background: #FFEFFB;
+  background: black;
   margin: 0;
   padding: 0;
   font-family: 'Rockwell', sans-serif;
@@ -30,6 +30,12 @@ b {
    text-decoration: none;
 }
 
+p {
+	color: white;
+	float: left;
+	font-size: 17px;
+}
+
 li {
   
   display: block;
@@ -46,22 +52,23 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #A12C3F;
+  background-color: black;
 }
 
 img {
   border-radius: 30px;
-  width: 100%;
+  width: 70%;
   object-fit: cover;
   text-align: center;
-  padding: 10px 20px;
+  padding: 0px 30px;
 } 
- img:hover {
-	 
- }
 
 .column {
-  width:33.3% 
+  width:50% ;
+}
+
+.column1 {
+	width: 50%;
 }
 
 .row {
@@ -72,17 +79,17 @@ img {
   max-width: 1500px;
   width: 100%;
   margin: 0 auto;
-  padding: 140px 40px;
+  padding: 80px 20px;
   text-align: center;
 }
 
 
 .footer {
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   color: white;
   text-align:right;
   font-size: 16px;
+  background-color: #A12C3F;
 } 
