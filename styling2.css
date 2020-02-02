@@ -34,6 +34,7 @@ p {
 	color: white;
 	float: left;
 	font-size: 17px;
+	padding: 30px;
 }
 
 li {
@@ -83,6 +84,11 @@ img {
   text-align: center;
 }
 
+.zoom:hover {
+  transform: scale(1.5);
+  margin: 0 auto;
+  padding: 0;
+}
 
 .footer {
   left: 0;

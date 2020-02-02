@@ -39,9 +39,14 @@ width: 85%
 }
 
 h2{
+	font-size: 30px;
 	color:white;
 	 text-shadow: 0 0 3px pink;
 	text-align: left;
+	padding: 0 20px;
+	display: inline-block; 
+	background-color: black;
+	border-radius: 4px;
 }
 
 li {
@@ -80,18 +85,17 @@ div.a {
   margin: 0 auto;
   padding: 262px 20px;
 }
-
 .projects .btn {
+  text-align: center;
   color: #9A293B;
+  font-size: 16px;
   background: #FCE8FC;
   text-decoration: none;
-  padding: 5px 30px;
+  padding: 7px 30px;
   border-radius: 4px;
   display: inline-block;
-  position: absolute;
-  bottom: 80px;
-  text-align: center;
-  
+  position: relative;
+  bottom: -100px;
 }
 
 .work { 
@@ -102,12 +106,17 @@ div.a {
 
 .experience {
 	
-  color: grey;
+  color: #454444;
   padding: 90px 20px;
   text-align: center;
 }
 
-.column {
+.column3 {
+  flex: 50%;
+  border-right-style: solid;
+}
+
+.column4 {
   flex: 50%;
 }
 
@@ -125,11 +134,11 @@ div.a {
 
 img {
   border-radius: 20px;
+  float: center;
   width: 320px;
-  height: 70%;
   object-fit: cover;
   text-align: center;
-  padding: 20px 10px;
+  padding: 20px 0px;
 } 
  
  
