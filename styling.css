@@ -41,7 +41,7 @@ width: 85%
 h2{
 	font-size: 30px;
 	color:white;
-	 text-shadow: 0 0 3px pink;
+	text-shadow: 0 0 3px pink;
 	text-align: center;
 	padding: 0 40px;
 	border-radius: 4px;
@@ -67,7 +67,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #F8809A;
+  background-color: #A0293C;
 }
 
 div.a {
@@ -153,15 +153,15 @@ img {
 .art {
   color: white;
   padding: 30px 50px;
-  background: #FCE8FC;
+  background: #FFEFFB;
   width: 100%;
   float: center: 
 }
  
  
 .project-item {	
-  background: #F8809A;
-  padding: 30px;
+  background: #A0293C;
+  padding: 20px;
   margin:0;
   overflow: hidden;
   text-align: left;

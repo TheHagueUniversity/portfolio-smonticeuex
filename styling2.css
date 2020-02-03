@@ -71,10 +71,13 @@ img {
 
 .column {
   width:50% ;
+   
 }
 
 .column1 {
 	width: 50%;
+	 border-bottom-style: dashed;
+	 color: white;
 }
 
 .row {
