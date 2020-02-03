@@ -30,11 +30,15 @@ b {
    text-decoration: none;
 }
 
+h3{
+	color:#FFEFFB;
+	text-align: center;
+}
+
 p {
-	color: white;
-	float: left;
-	font-size: 17px;
-	padding: 30px;
+	color: #FFEFFB;
+	text-align: center;
+	font-size: 14px;
 }
 
 li {
@@ -57,19 +61,20 @@ ul {
 }
 
 img {
+	float: center;
   border-radius: 30px;
-  width: 70%;
+  width: 85%;
   object-fit: cover;
   text-align: center;
-  padding: 0px 30px;
+  padding: 0px 50px;
 } 
 
 .column {
-  width:60% ;
+  width:50% ;
 }
 
 .column1 {
-	width: 40%;
+	width: 50%;
 }
 
 .row {
@@ -80,7 +85,7 @@ img {
   max-width: 1500px;
   width: 100%;
   margin: 0 auto;
-  padding: 80px 20px;
+  padding: 100px 50px;
   text-align: center;
 }
 

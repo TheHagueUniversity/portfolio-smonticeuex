@@ -42,8 +42,8 @@ h2{
 	font-size: 30px;
 	color:white;
 	 text-shadow: 0 0 3px pink;
-	text-align: left;
-	padding: 0 20px;
+	text-align: center;
+	padding: 0 40px;
 	border-radius: 4px;
 }
 
@@ -67,7 +67,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #C4305A;
+  background-color: #F8809A;
 }
 
 div.a {
@@ -111,6 +111,7 @@ div.a {
   color: #454444;
   padding: 120px 20px;
   text-align: center;
+  line-height: 3;
 }
 
 .column3 {
@@ -123,12 +124,17 @@ div.a {
 }
 
 .column1 {
-	width: 70%
+	width: 70%;
 	
 }
 
 .column2 {
-	width: 30%
+	width: 30%;
+}
+
+.column5{
+	width:25%;
+	
 }
 	
 .row {
@@ -143,6 +149,14 @@ img {
   text-align: center;
   padding: 40px 0px;
 } 
+ 
+.art {
+  color: white;
+  padding: 30px 50px;
+  background: #FCE8FC;
+  width: 100%;
+  float: center: 
+}
  
  
 .project-item {	
